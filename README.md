@@ -1,5 +1,5 @@
 # Multi-Client-Chat
-Multi-client chat using threads in java
+Multi-client chat using threads, RSA encryption, and md5 hash in java 
 
 To compile: javac Chat/*.java 
 To Run: 1. java Chat.Server 2. java Chat.ClientApp
