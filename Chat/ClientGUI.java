@@ -52,7 +52,7 @@ public class ClientGUI {
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String username = userField.getText();
+                String username = userField.getText().trim();
                 String password = new String(passwordField.getPassword());  // Retrieve password as a string
 
                 if (!username.isEmpty() && !password.isEmpty()) {
@@ -72,7 +72,7 @@ public class ClientGUI {
         registerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String username = userField.getText();
+                String username = userField.getText().trim();
                 String password = new String(passwordField.getPassword());  // Retrieve password as a string
 
                 if (!username.isEmpty() && !password.isEmpty()) {
